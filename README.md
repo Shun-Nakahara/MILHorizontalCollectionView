@@ -2,6 +2,8 @@ MILHorizontalCollectionView
 =======================
 <br>
 
+[![Carthage](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+
 <p align="center">
 <img src="README_ASSETS/MILHorizontalCollectionViewControllerExample.gif"  alt="Drawing" height=250 border=0 /></p>
 
