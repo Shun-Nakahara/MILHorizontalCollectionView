@@ -54,12 +54,12 @@
 		F710D5A21CD04CE500CE2915 /* MILHorizontalCollectionView */ = {
 			isa = PBXGroup;
 			children = (
-				F710D5AB1CD04D6000CE2915 /* MILHorizontalCollectionViewCell.swift */,
-				F710D5AC1CD04D6000CE2915 /* MILHorizontalCollectionViewCell.xib */,
-				F710D5AD1CD04D6000CE2915 /* MILHorizontalCollectionViewController.swift */,
-				F710D5AE1CD04D6000CE2915 /* MILHorizontalCollectionViewFlowLayout.swift */,
 				F710D5A31CD04CE500CE2915 /* MILHorizontalCollectionView.h */,
 				F710D5A51CD04CE500CE2915 /* Info.plist */,
+				F710D5AB1CD04D6000CE2915 /* MILHorizontalCollectionViewCell.swift */,
+				F710D5AD1CD04D6000CE2915 /* MILHorizontalCollectionViewController.swift */,
+				F710D5AE1CD04D6000CE2915 /* MILHorizontalCollectionViewFlowLayout.swift */,
+				F710D5AC1CD04D6000CE2915 /* MILHorizontalCollectionViewCell.xib */,
 			);
 			path = MILHorizontalCollectionView;
 			sourceTree = "<group>";
@@ -190,7 +190,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -233,7 +233,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
