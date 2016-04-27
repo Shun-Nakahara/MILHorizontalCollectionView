@@ -67,7 +67,7 @@ class MILHorizontalCollectionViewFlowLayout: UICollectionViewFlowLayout {
     /**
     This method defines the behavior of how many cells the collectionview scrolls past when the user flicks the horizontal collection view.
     */
-    override func targetContentOffsetForProposedContentOffset(var proposedContentOffset: CGPoint, withScrollingVelocity  velocity: CGPoint) -> CGPoint {
+    override func targetContentOffsetForProposedContentOffset(proposedContentOffset: CGPoint, withScrollingVelocity  velocity: CGPoint) -> CGPoint {
         
         let rawPageValue : CGFloat = self.collectionView!.contentOffset.x / self.pageWidth();
         let currentPage : CGFloat = (velocity.x > 0.0) ? floor(rawPageValue) : ceil(rawPageValue);
@@ -75,13 +75,15 @@ class MILHorizontalCollectionViewFlowLayout: UICollectionViewFlowLayout {
         
         let pannedLessThanAPage : Bool = fabs(1 + currentPage - rawPageValue) > 0.5;
         let flicked : Bool = fabs(velocity.x) > self.flickVelocity();
+        
+        var resultOffset: CGPoint = proposedContentOffset
         if (pannedLessThanAPage && flicked) {
-            proposedContentOffset.x = nextPage * self.pageWidth();
+            resultOffset.x = nextPage * self.pageWidth();
         } else {
-            proposedContentOffset.x = (round(rawPageValue) * self.pageWidth());
+            resultOffset.x = (round(rawPageValue) * self.pageWidth());
         }
         
-        return proposedContentOffset;
+        return resultOffset;
     }
     
 }

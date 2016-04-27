@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F710D5A41CD04CE500CE2915 /* MILHorizontalCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = F710D5A31CD04CE500CE2915 /* MILHorizontalCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F710D5AF1CD04D6000CE2915 /* MILHorizontalCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F710D5AB1CD04D6000CE2915 /* MILHorizontalCollectionViewCell.swift */; };
+		F710D5B01CD04D6000CE2915 /* MILHorizontalCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F710D5AC1CD04D6000CE2915 /* MILHorizontalCollectionViewCell.xib */; };
+		F710D5B11CD04D6000CE2915 /* MILHorizontalCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F710D5AD1CD04D6000CE2915 /* MILHorizontalCollectionViewController.swift */; };
+		F710D5B21CD04D6000CE2915 /* MILHorizontalCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F710D5AE1CD04D6000CE2915 /* MILHorizontalCollectionViewFlowLayout.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F710D5A01CD04CE500CE2915 /* MILHorizontalCollectionView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MILHorizontalCollectionView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F710D5A31CD04CE500CE2915 /* MILHorizontalCollectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MILHorizontalCollectionView.h; sourceTree = "<group>"; };
+		F710D5A51CD04CE500CE2915 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F710D5AB1CD04D6000CE2915 /* MILHorizontalCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MILHorizontalCollectionViewCell.swift; sourceTree = "<group>"; };
+		F710D5AC1CD04D6000CE2915 /* MILHorizontalCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MILHorizontalCollectionViewCell.xib; sourceTree = "<group>"; };
+		F710D5AD1CD04D6000CE2915 /* MILHorizontalCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MILHorizontalCollectionViewController.swift; sourceTree = "<group>"; };
+		F710D5AE1CD04D6000CE2915 /* MILHorizontalCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MILHorizontalCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F710D59C1CD04CE500CE2915 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F710D5961CD04CE500CE2915 = {
+			isa = PBXGroup;
+			children = (
+				F710D5A21CD04CE500CE2915 /* MILHorizontalCollectionView */,
+				F710D5A11CD04CE500CE2915 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F710D5A11CD04CE500CE2915 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F710D5A01CD04CE500CE2915 /* MILHorizontalCollectionView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F710D5A21CD04CE500CE2915 /* MILHorizontalCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				F710D5AB1CD04D6000CE2915 /* MILHorizontalCollectionViewCell.swift */,
+				F710D5AC1CD04D6000CE2915 /* MILHorizontalCollectionViewCell.xib */,
+				F710D5AD1CD04D6000CE2915 /* MILHorizontalCollectionViewController.swift */,
+				F710D5AE1CD04D6000CE2915 /* MILHorizontalCollectionViewFlowLayout.swift */,
+				F710D5A31CD04CE500CE2915 /* MILHorizontalCollectionView.h */,
+				F710D5A51CD04CE500CE2915 /* Info.plist */,
+			);
+			path = MILHorizontalCollectionView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F710D59D1CD04CE500CE2915 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F710D5A41CD04CE500CE2915 /* MILHorizontalCollectionView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F710D59F1CD04CE500CE2915 /* MILHorizontalCollectionView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F710D5A81CD04CE500CE2915 /* Build configuration list for PBXNativeTarget "MILHorizontalCollectionView" */;
+			buildPhases = (
+				F710D59B1CD04CE500CE2915 /* Sources */,
+				F710D59C1CD04CE500CE2915 /* Frameworks */,
+				F710D59D1CD04CE500CE2915 /* Headers */,
+				F710D59E1CD04CE500CE2915 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MILHorizontalCollectionView;
+			productName = MILHorizontalCollectionView;
+			productReference = F710D5A01CD04CE500CE2915 /* MILHorizontalCollectionView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F710D5971CD04CE500CE2915 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Shun Nakahara";
+				TargetAttributes = {
+					F710D59F1CD04CE500CE2915 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = F710D59A1CD04CE500CE2915 /* Build configuration list for PBXProject "MILHorizontalCollectionView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F710D5961CD04CE500CE2915;
+			productRefGroup = F710D5A11CD04CE500CE2915 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F710D59F1CD04CE500CE2915 /* MILHorizontalCollectionView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F710D59E1CD04CE500CE2915 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F710D5B01CD04D6000CE2915 /* MILHorizontalCollectionViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F710D59B1CD04CE500CE2915 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F710D5AF1CD04D6000CE2915 /* MILHorizontalCollectionViewCell.swift in Sources */,
+				F710D5B11CD04D6000CE2915 /* MILHorizontalCollectionViewController.swift in Sources */,
+				F710D5B21CD04D6000CE2915 /* MILHorizontalCollectionViewFlowLayout.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F710D5A61CD04CE500CE2915 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F710D5A71CD04CE500CE2915 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F710D5A91CD04CE500CE2915 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MILHorizontalCollectionView/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shun.nakahara.MILHorizontalCollectionView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F710D5AA1CD04CE500CE2915 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MILHorizontalCollectionView/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shun.nakahara.MILHorizontalCollectionView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F710D59A1CD04CE500CE2915 /* Build configuration list for PBXProject "MILHorizontalCollectionView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F710D5A61CD04CE500CE2915 /* Debug */,
+				F710D5A71CD04CE500CE2915 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F710D5A81CD04CE500CE2915 /* Build configuration list for PBXNativeTarget "MILHorizontalCollectionView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F710D5A91CD04CE500CE2915 /* Debug */,
+				F710D5AA1CD04CE500CE2915 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F710D5971CD04CE500CE2915 /* Project object */;
+}

@@ -37,7 +37,8 @@ class MILHorizontalCollectionViewController: UICollectionViewController {
     This method sets up the collectionview to have n placeholder items while it waits for a call back from the server (when the refresh method is called)
     */
     func setUpWithInitialPlaceHolderItems(numberOfPlaceHolderCells : Int){
-        for(var i = 0; i<numberOfPlaceHolderCells; i++){
+        
+        for _ in 1..<numberOfPlaceHolderCells {
             self.dataArray.append("")
         }
     }
@@ -241,9 +242,8 @@ class MILHorizontalCollectionViewController: UICollectionViewController {
             if let url  = NSURL(string: urlString){
         
                 let request: NSURLRequest = NSURLRequest(URL: url)
-                let mainQueue = NSOperationQueue.mainQueue()
-        
-                NSURLConnection.sendAsynchronousRequest(request, queue: mainQueue, completionHandler: { (response, data, error) -> Void in
+                
+                NSURLSession.sharedSession().dataTaskWithRequest(request, completionHandler: { (data, response, error) in
                     if error == nil {
                         let image = UIImage(data: data!)
                         // Store the image in the cache
